@@ -9,6 +9,15 @@ body{
     stroke-dashoffset: 900;
     animation: dash 6s linear alternate infinite;
 }
+
+@media(max-width: 900px){
+  svg{
+    width: 100%;
+  }
+  body{
+    display: block;
+  }
+}
   
   @keyframes dash {
     from {
