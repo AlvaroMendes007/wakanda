@@ -1,0 +1,20 @@
+body{
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.wakanda{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 900;
+    animation: dash 6s linear alternate infinite;
+}
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 3000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
